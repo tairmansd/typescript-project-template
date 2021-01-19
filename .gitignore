@@ -1,0 +1,38 @@
+# package directories
+node_modules
+
+# Serverless directories
+.serverless
+
+# Webpack directories
+.webpack
+
+# Intellij files
+.idea
+*.iml
+
+# API keys and secrets
+.env
+
+# ignore yarn.lock
+yarn.lock
+
+# build directories
+lib/**/*
+
+/packages/**/*.js
+**/*.js.map
+
+lerna-debug.log
+
+.DS_Store
+coverage
+
+# pact
+logs
+
+#logs
+*.log
+
+#history
+*.history
